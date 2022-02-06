@@ -35,6 +35,7 @@ function main()
     git init
     git license "${license}"
     git readme
+    git newchlog
     git add --all
     git commit -m 'Initial commit'
 }

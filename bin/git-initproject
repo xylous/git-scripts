@@ -29,7 +29,7 @@ function main()
     local license="$1"
 
     if [[ -z "${license}" ]]; then
-        license="MIT"
+        license="GPL3"
     fi
 
     git init
